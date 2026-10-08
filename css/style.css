@@ -37,6 +37,12 @@ body {
     gap: 2em;
 }
 
+.card-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
 @media (min-width: 768px) {
     body {
         display: grid;
@@ -103,12 +109,6 @@ main {
 
 main h2 {
     margin-bottom: 16px;
-}
-
-.card-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
 }
 
 .card-grid article {
